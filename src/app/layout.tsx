@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: "FFCS | CodeChef-VIT",
   description:
     "Struggling to navigate FFCS or build the perfect timetable? We've got something for you. Stay tuned!",
-  icons: [{ rel: "icon", url: "/cc-logo.svg" }],
+  icons: [{ rel: "icon", url: "https://ffcs.codechefvit.com/cc-logo.svg" }],
   openGraph: {
     title: "CodeChef-VIT",
-    images: [{ url: "/open-graph.png" }],
+    images: [{ url: "https://ffcs.codechefvit.com/open-graph.png" }],
     url: "https://ffcs.codechefvit.com",
     type: "website",
     description: "Made with ♡ by CodeChef-VIT",
