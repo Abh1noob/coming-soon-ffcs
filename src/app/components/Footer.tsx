@@ -10,7 +10,7 @@ import { Button } from "./ui/button";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center lg:px-12 mb-4 bg-black text-white">
+    <div className="flex flex-col lg:flex-row justify-between items-center lg:px-12 py-4 bg-black text-white">
       <div className="flex items-center gap-4">
         <Image
           src={ccLogo as HTMLImageElement}
@@ -21,7 +21,7 @@ export default function Footer() {
         <p className="jost text-2xl font-bold lg:text-4xl m-4">CodeChef-VIT</p>
       </div>
       
-      <div className="flex gap-4">
+      <div className="flex gap-4 mt-4 lg:mt-0">
         <Link href="https://www.instagram.com/codechefvit/">
           <Button variant="ghost" size="icon">
             <Instagram />
@@ -59,6 +59,7 @@ export default function Footer() {
               alt="x_twitter_icon"
               height={24}
               width={24}
+              className="mb-2"
             />
           </Button>
         </Link>
