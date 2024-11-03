@@ -85,7 +85,7 @@ export default function RootLayout({
     <html lang="en">
       <meta
         name="google-site-verification"
-        content="WOlfgpT95PqNt4OR18PSHfqNRW6TyHo0NgeOocU9SRs"
+        content="SjVFuH8GzIj3Ooh2JcWufBoSMWTzo77TACHomonCKVs"
       />
       <body className={inter.className}>
         <div className="bg-[url('/background.png')] bg-cover bg-center min-h-screen">
